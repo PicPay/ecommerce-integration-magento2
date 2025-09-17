@@ -222,6 +222,15 @@
                 </button>
             </div>
         </div>
+
+        <!-- ko if: (isTdsActive())-->
+            <div class="picpay-tds-modal" id="picpay-tds-modal" afterRender="renderTdsModal">
+                <iframe id="picpay-tds-step-up-iframe" name="picpay-tds-step-up-iframe"></iframe>
+                <form id="picpay-tds-step-up-form" target="picpay-tds-step-up-iframe" method="post">
+                    <input type="hidden" id="picpay-tds-access-code" name="JWT" value="" />
+                </form>
+            </div>
+        <!-- /ko -->
     </div>
 </div>
 
