@@ -28,7 +28,7 @@
                 <district>3</district>
             </address>
             <endpoints>
-                <payments_uri>https://checkout-api.picpay.com/</payments_uri>
+                <payments_uri>https://ecommerce-api.svcp.picpay.com/</payments_uri>
                 <payments_uri_sandbox>https://checkout-api-sandbox.picpay.com/</payments_uri_sandbox>
                 <payments>
                     <auth>oauth2/token</auth>
